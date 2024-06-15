@@ -10,8 +10,18 @@
         }
 
         table {
-            width: 400px;
+            width: 600px;
             border-collapse: collapse;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
         }
 
         td, th {
