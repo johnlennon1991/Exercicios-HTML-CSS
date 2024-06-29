@@ -6,16 +6,17 @@
     <title>Início de Flexbox</title>
     <style>
         div.conteiner {
+            height: 300px;
             background-color: lightsalmon;
-            height: 100px;
             display: flex;
-            flex-flow: column wrap;
+            flex-flow: row nowrap;
+            justify-content: space-around;
+            align-items: stretch;
         }
 
         div.item {
             background-color: lightblue;
             border: 1px solid black;
-            flex: auto;
         }
     </style>
 </head>
